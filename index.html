@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Script.js"></script>
+    </head>
+    <body>
+        <section>
+        <center>
+            <h3>Calculator</h3>
+            <form name="formm">
+                <input class="box1" name="box1" type="text">
+            </form>
+            <table>
+                <tr class="tr1">
+                    <td><input class="btn" type="button" value="1" onclick = "insert(1)"> </td>
+                    <td><input class="btn" type="button" value="2" onclick = "insert(2)"> </td>
+                    <td><input class="btn" type="button" value="3" onclick = "insert(3)"> </td>
+                </tr>
+                <tr class="tr2">
+                    <td><input class="btn" type="button" value="4" onclick = "insert(4)"> </td>
+                    <td><input class="btn" type="button" value="5" onclick = "insert(5)"> </td>
+                    <td><input class="btn" type="button" value="6" onclick = "insert(6)"> </td>
+                </tr>
+                <tr class="tr3">
+                    <td><input class="btn" type="button" value="7" onclick = "insert(7)"> </td>
+                    <td><input class="btn" type="button" value="8" onclick = "insert(8)"> </td>
+                    <td><input class="btn" type="button" value="9" onclick = "insert(9)"> </td>
+                </tr>
+                <tr class="tr4">
+                    <td><input class="btn" type="button" value="0" onclick = "insert(0)"> </td>
+                    <td><input class="btn" type="button" value="+" onclick = "insert('+')" > </td>
+                    <td><input class="btn" type="button" value="-" onclick = "insert('-')" > </td>
+                </tr>
+                <tr class="tr5">
+                    <td><input class="btn" type="button" value="x" onclick = "insert('*')"> </td>
+                    <td><input class="btn" type="button" value="/" onclick = "insert('/')"> </td>
+                    <td><input class="btn" type="button" value="." onclick = "insert('.')"> </td>
+                </tr>
+                <tr class="tr6">
+                    <td><input class="btn" type="button" value="=" onclick = "equal()"> </td>
+                    <td><input class="btn" type="button" value="DEL" onclick = "backspace()"> </td>
+                    <td><input class="btn" type="button" value="CLR" onclick = "formm.box1.value=''"> </td>
+                </tr>
+            </table>
+        </center>
+    </section>
+    </body>
+</html>
